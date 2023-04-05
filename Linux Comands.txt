@@ -1,0 +1,192 @@
+1. ssh - for conection
+
+2. ls - list files (-l == for list , -al == shoiw hiden files)
+
+3. pwd - print working directory
+
+4. cd - change working directory
+
+5. touch _file name_ - it creates file
+
+6. echo _something_ - it prints what you type 
+
+7. echo _something_ > _new or existing file name_ - it creats file whith something in it
+ 
+8. nano _file name _ - for editing file
+
+9. vim _file name_ - second comand for editing files
+
+10. cat _file name_ - it print what is inside file
+
+11. shred _file name_ - it encrypt file insides for hide it
+
+12. mkdir _directory name_ - it makes new directory
+
+13. cp _file name_ ./place/place/_file name_ - it copyes file to new directory
+
+14. mv _file name_ ./place/place/_file name_ - it moves file to another directory
+
+15. rm _file name_ - it deletes file 
+
+16. rmdir _directory name_ - it deletes directory
+
+17. ln -s _name file_ _link name_ - it creats link for file
+
+18. clear - it cleans a terminal
+
+19. sudo _comand_ - permition for root comands
+
+20. whoami - it print user useing system 
+
+21. sudo useradd _username_ - it creats new usser
+
+22. sudo adduser _username_ - it creats new user, but you will have to add another parametrs
+
+23. su _username_ - swith user
+
+24. exite - it just exit lot of palces, like switch user back
+
+25. sudo passwd _username_ - it adds pasword to username
+
+26. sudo apt update - it updates reposetory
+
+27. sudo apt install _package or app_ - its gonna install something 
+
+28. finger _username_ - comand to inspect user
+
+29. man _command_ - it tells you what is other command doing
+
+30. whatis _command_ - faster and shorter man
+
+31. which _command_ - it prints repository of command
+
+32. whereis _command_ - it prints all repositorys of command
+
+33. wget _link of stuf_ - it downloads what you want
+
+34. curl _link of stuf_ > _file name_ - it downlads what you want and it creats for it file
+
+35. zip _zip name_ _file name_ - it zips file
+
+36. unzip _zip file_ - it unzipp files
+
+37. less _file name_ - it prints what is in file but diferently than cat command
+
+38. head _file name_ - it prints begining of file
+
+39. tail _fail name_ - it prints end of the file
+
+40. cmp _file name1_ _file name2_ - it comper them and print if they are diferent
+
+41. diff _file name1_ _file name2_ - it dose same thing llike cmp command but shows you where is a diferenc
+
+42. cat _file name_ | sort - it sorts file alphabeticly
+
+43. sudo find / -name "_file name_*"  - it is gonna find directory of file in the whole system
+
+44. sudo find . -type f -name ".*"  - it is gonna find all hiden files 
+
+45. find . -type f -empty - print all empty directores
+
+46. find . -perm /a=x -it finds all executable files
+
+47. chmod +x _file name_ - it creats file executable
+
+48. chown _usser_ _file name_ - it change owner ship of file
+
+49. ifconfig - it is gonna show you what is yor ip address
+
+50. ip address - it do exactly same like ifconfig command
+
+51. ip address | grep eth0 - it show you eth0 ip adress
+
+52. ip address | grep eth0 | grep inet - do the same ike previos
+
+53. ip address | grep eth0 | grep inet | awk "{print $2}" - idk
+
+54. cat /etc/resolv.conf - it shows dns server
+
+55. resolvectlstatus -do same like previos one but better
+
+56. ping _webside name_ - it contols if is webside running with no limit responding
+
+57. ping -c 5 _webside name_ - it contols if is webside running with limit 5 responds
+
+58. tracerout _webside name_ - it tells every hop in latency
+
+59. netstat - it shos you all open ports on machine
+
+60. netstat -tulpun - its better tehna previos
+
+61. ss -tulpun  -its much better then previous
+
+62. iptables - firewall stuf
+
+63. ufw - another firewall stuf
+
+64. uname -a  -it tells you something about system
+
+65. neofatch - prettyer version of previous
+
+66. cal - it gives you litle calender
+
+67. free - it shows you available memorie
+
+68. df -H - it shows you memorie
+
+69. ps - it is gonna show you cammon procces (-aux == it givs you all goodies
+
+70. top - it monitors procceses
+
+71. htop - it monitors them better
+
+72. ps -aux | grep _procces name_ - it finds procces id
+
+73. kill -9 _procces id_ - it kills the procces
+
+74. pkill -f _procces name_ - it kills the procces 
+
+75. sudo service _procces name_ status - shows you status of procces
+
+76. sudo service _procces name_ start - it starts procces
+
+77. sudo service _procces name_ stop - it stop procces
+
+78. sudo service _procces name restart - it restats procces 
+
+78. sudo systemctl (start,stop,status) _procces name_ - comand for contoling procceses on System D
+
+79. history - it prints history of commands
+
+80. sudo reboot - it reboot a system
+
+81. sudo shutdown - it shutdown a system
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
